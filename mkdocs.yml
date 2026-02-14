@@ -1,6 +1,6 @@
 site_name: 文档即产品
 site_author: Aaron Wang
-site_url: https://hongjun.vip/
+site_url: materialx.shenwy.com/
 site_description: mkdocs教程，markdown教程，markdown生成PPT、静态网站、图表、思维导图，markdown编写AI结构化提示词
 copyright: Copyright &copy; 2025 | 🚀 Aaron Wang
 
@@ -39,14 +39,10 @@ theme:
   font: false
 
   palette:
-    - media: "(prefers-color-scheme)"          # 自动模式 - 随系统主题调色板自动切换
-      toggle:
-        icon: material/brightness-auto
-        name: 自动模式 - 随系统主题色
     - media: "(prefers-color-scheme: light)"   # 手动模式 - 亮色
       scheme: default
-      primary: blue
-      accent: light blue
+      primary: indigo
+      accent: light indigo
       toggle:
         icon: material/weather-sunny
         name: 亮色模式
