@@ -28,5 +28,5 @@ jobs:
             mkdocs-materialx-
       - run: pip install --upgrade mkdocs-materialx
       - run: pip install --upgrade mkdocs-document-dates
-      - run: pip install mkdocs-glightbox
+      - run: pip install mkdocs-glightbox mkdocs-rss-plugin mkdocs-awesome-nav
       - run: mkdocs gh-deploy --force
