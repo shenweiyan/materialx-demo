@@ -1,5 +1,5 @@
 site_dir: "site"
-site_url: https://shenwy.com/
+site_url: https://materialx.shenwy.com/
 site_name: 维燕的数字花园
 site_description: '记录 Bio+IT 相关知识，沉淀生活，记录点滴。'
 
@@ -7,8 +7,8 @@ site_description: '记录 Bio+IT 相关知识，沉淀生活，记录点滴。'
 docs_dir: "docs"
 
 # Repository
-repo_name: Digital-Garden
-repo_url: https://github.com/shenweiyan/Digital-Garden/
+repo_name: materialx-demo
+repo_url: https://github.com/shenweiyan/materialx-demo/
 edit_uri: edit/main/docs/
 site_author: Steven Shum
 
@@ -114,7 +114,6 @@ plugins:
       pagination_if_single_page: true
   - tags:
       listings: true
-  - info
 
 hooks:
   - hooks.py
