@@ -1,2 +1,3 @@
-# materialx-demo
+## materialx-demo
+
 mkdocs-materialx example site
